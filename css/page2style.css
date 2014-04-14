@@ -1,0 +1,15 @@
+h1
+{
+  margin-left:40%;
+}
+#product-search-bar
+{
+  float:right;
+  display:inline-block;
+  margin-top: -2.25%;
+  margin-right: 1%;
+}
+#product-header
+{
+  display:inline-block;
+}

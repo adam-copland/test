@@ -1,0 +1,142 @@
+@media screen and (max-width: 1024px)
+{
+  #loginform
+  {
+    width: 90%;
+    margin-top:10%;
+    margin-bottom:0%;
+  }
+  #form-border
+  {
+    margin-top: 22%;
+    height: 160px;
+    width: 225px;
+    border: grey 1px solid;
+    position: relative;
+    background-color: whitesmoke;
+    margin-left:38.6%
+  }
+  #form-border2
+  {
+    margin-top: 21.4%;
+    height: 160px;
+    width: 225px;
+    background-color: whitesmoke;
+    border: grey 1px solid;
+    position: fixed;
+    -webkit-transform: rotate(5deg);
+    -ms-transform: rotate(5deg);
+    transform: rotate(5deg);
+    margin-left:37.5%;
+  }
+  #form-border3
+  {
+    margin-top: 21.4%;
+    height: 160px;
+    width: 225px;
+    background-color: whitesmoke;
+    border: grey 1px solid;
+    position: fixed;
+    -webkit-transform: rotate(-5deg);
+    -ms-transform: rotate(-5deg);
+    transform: rotate(-5deg);
+    margin-left:37.5%;
+  }
+  #login-btn
+  {
+    margin-bottom:5%;
+  }
+  #clear-btn
+  {
+    margin-bottom:5%;
+  }
+}
+@media screen and (max-width: 768px)
+{
+    #loginform
+  {
+    width: 90%;
+    margin-top:10%;
+    margin-bottom:0%;
+  }
+  #form-border
+  {
+    margin-top: 43.5%;
+    height: 160px;
+    width: 225px;
+    border: grey 1px solid;
+    position: relative;
+    background-color: whitesmoke;
+    margin-left:34.6%
+  }
+  #form-border2
+  {
+    margin-top: 41.8%;
+    height: 160px;
+    width: 225px;
+    background-color: whitesmoke;
+    border: grey 1px solid;
+    position: fixed;
+    -webkit-transform: rotate(5deg);
+    -ms-transform: rotate(5deg);
+    transform: rotate(5deg);
+    margin-left:33.25%;
+  }
+  #form-border3
+  {
+    margin-top: 41.8%;
+    height: 160px;
+    width: 225px;
+    background-color: whitesmoke;
+    border: grey 1px solid;
+    position: fixed;
+    -webkit-transform: rotate(-5deg);
+    -ms-transform: rotate(-5deg);
+    transform: rotate(-5deg);
+    margin-left:33.25%;
+  }
+}
+
+@media screen and (max-width: 480px)
+{
+      #form-border
+  {
+    margin-top: 27%;
+    height: 160px;
+    width: 225px;
+    border: grey 1px solid;
+    position: relative;
+    background-color: whitesmoke;
+    margin-left:33px
+  }
+  #form-border2
+  {
+    margin-top: 25%;
+    height: 160px;
+    width: 225px;
+    background-color: whitesmoke;
+    border: grey 1px solid;
+    position: fixed;
+    -webkit-transform: rotate(5deg);
+    -ms-transform: rotate(5deg);
+    transform: rotate(5deg);
+    margin-left:33px;
+  }
+  #form-border3
+  {
+    margin-top: 25%;
+    height: 160px;
+    width: 225px;
+    background-color: whitesmoke;
+    border: grey 1px solid;
+    position: fixed;
+    -webkit-transform: rotate(-5deg);
+    -ms-transform: rotate(-5deg);
+    transform: rotate(-5deg);
+    margin-left:33px;
+  }
+  #settings-btn
+  {
+    margin-left:90px;
+  }
+}

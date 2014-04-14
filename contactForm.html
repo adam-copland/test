@@ -1,0 +1,81 @@
+<div data-role="page" id="contactForm" data-theme="b" >
+        <div data-role="header" data-position="inline" data-theme="b">
+          <a href="page3.html" data-icon="delete">Cancel</a>
+        <h1>Drive Computing</h1>
+        <a onclick="return saveContact();" href="#" data-icon="check" data-theme="b">Save</a>
+        </div>
+        <div data-role="panel" id="mypanel" data-position="left" data-display="reveal" data-position-fixed="true" data-swipe-close="true" data-theme="a">
+          <center><h2>Menu</h2></center>
+          <center><a href="" data-role="button" id="home-btn" data-inline="true" onClick="doHomePage();">Home</a></center>
+          <center>
+           <a href="page2.html" type="button" data-inline="true" data-theme="a" onClick="doProductPage();">Products</a>
+           <br>
+           <a href="pic.html" type="button" data-inline="true" data-theme="a" onClick="doCameraPage();">Camera</a>
+          </center>
+        </div>
+  <div data-role="content">
+          <div data-role="navbar" data-theme="a">
+            <ul data-theme="a">
+              <li data-theme="a">
+                <a href="#mypanel">Menu</a>
+              </li>
+              <li>
+                <a href="page2.html" onClick="doProductPage();">Products</a>
+              </li>
+              <li>
+                <a href="pic.html" onClick="doCameraPage();">Camera</a>
+              </li>
+              <li>
+                <a href="page3.html" onClick="doContactUs();">Contacts</a>
+              </li>
+            </ul>
+          </div>
+          <br>
+          <h1 style="font-size:20px;">Add a Contact</h1>
+          <br>
+          <form action="contactForm.html" id="formContact" method="post">
+          <input type="hidden" name="id" value="0"/>
+          <table>
+            <tr>
+              <td>Display Name</td>
+              <td><input type="text" name="displayName" value="" /></td>
+            </tr>
+            <tr>
+              <td>First Name</td>
+              <td><input type="text" name="firstName" value="" /></td>
+            </tr>
+            <tr>
+              <td>Last Name</td>
+              <td><input type="text" name="lastName" value="" /></td>
+            </tr>
+            <tr>
+              <td>Email (Home)</td>
+              <td><input type="text" name="email_home" value="" /></td>
+            </tr>
+            <tr>
+              <td>Email (Work)</td>
+              <td><input type="text" name="email_work" value="" /></td>
+            </tr>
+            <tr>
+              <td>Email (Other)</td>
+              <td><input type="text" name="email_other" value="" /></td>
+            </tr>
+            <tr>
+              <td>Phone (Home)</td>
+              <td><input type="text" name="phone_home" value="" /></td>
+            </tr>
+            <tr>
+              <td>Phone (Work)</td>
+              <td><input type="text" name="phone_work" value="" /></td>
+            </tr>
+            <tr>
+              <td>Phone (Other)</td>
+              <td><input type="text" name="phone_other" value="" /></td>
+            </tr>
+          </table>
+        </form>
+          </div><!-- /content -->
+          <div data-role="footer" data-position="fixed" data-theme="b">
+          <h3>Contact Us</h3>
+        </div>
+</div><!-- /page -->

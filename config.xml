@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<widget xmlns       = "http://www.w3.org/ns/widgets"
+        xmlns:gap   = "http://phonegap.com/ns/1.0"
+        id          = "uk.co.driveerp.blissdemo"
+        versionCode ="10"
+        version     = "1.0">
+  <!-- versionCode is optional and Android only -->
+  <name>BLISS</name>
+  <description>
+    Test
+  </description>
+  <author href="http://www.drivecomputing.co.uk" email="jasonm@drivecomputing.co.uk">
+    Drive Computer Services Ltd
+  </author>
+  <preference name="phonegap-version" value="2.9.0" />
+  <preference name="detect-data-types" value="true" />
+  <preference name="exit-on-suspend" value="false" />
+  <preference name="splash-screen-duration" value="3000"/>
+  <preference name="webviewbounce" value="false" />
+  <icon src="icons/iOS/icon1.png" />
+  <icon src="icons/iOS/icon1.png" gap:platform="ios" width="57" height="57" />
+  <icon src="icons/iOS/icon-721.png" gap:platform="ios" width="72" height="72" />
+  <icon src="icons/iOS/icon_at_2x1.png" gap:platform="ios" width="114" height="114" />
+  <icon src="icons/iOS/icon-72_at_2x1.png" gap:platform="ios" width="144" height="144" />
+  <icon src="icons/ios/VG-icon-ipad.png" gap:platform="ios" width="76" height="76" />
+  <icon src="icons/ios/VG-icon-iphone-ipod.png" gap:platform="ios" width="120" height="120" />
+  <icon src="icons/ios/VG-icon-ipad2.png" gap:platform="ios" width="152" height="152" />
+  <gap:splash src="splash.png" />
+  <gap:splash gap:platform="ios" height="480" src="res/screen/ios/screen-iphone-portrait.png" width="320" />
+  <gap:splash gap:platform="ios" height="960" src="res/screen/ios/screen-iphone-portrait-2x.png" width="640" />
+  <gap:splash gap:platform="ios" height="1024" src="res/screen/ios/screen-ipad-portrait.png" width="768" />
+  <gap:splash gap:platform="ios" height="768" src="res/screen/ios/screen-ipad-landscape.png" width="1024" />
+  <plugin name="Storage" value="org.apache.cordova.Storage" />
+  <feature name="http://api.phonegap.com/1.0/camera"/>
+  <feature name="http://api.phonegap.com/1.0/network"/>
+  <feature name="http://api.phonegap.com/1.0/file"/>
+  <feature name="http://api.phonegap.com/1.0/contacts"/>
+</widget>

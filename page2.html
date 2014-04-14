@@ -1,0 +1,51 @@
+<div id="product-page" data-role="page" data-theme="b" data-add-back-btn="true">
+
+        <div id="product-header" data-role="header" data-position="fixed" data-theme="b">
+          <h1>Drive Computing</h1>
+          <div id="product-search-bar">
+          <input id="product-search" type="search" name="search-mini" placeholder="Search..." data-mini="true" data-inline="true"/>
+        </div>
+        </div>
+
+
+
+
+  <div data-role="panel" id="mypanel" data-position="left" data-display="reveal" data-position-fixed="true" data-swipe-close="true" data-theme="a">
+    <center><h3>Menu</h3></center>
+    <center><a href="" data-role="button" id="home-btn" data-inline="true" onClick="doHomePage();">Home</a></center>
+    <center>
+           <a href="pic.html" type="button" data-inline="true" data-theme="a" onClick="doCameraPage();">Camera</a>
+           <br>
+           <a href="page3.html" type="button" data-inline="true" data-theme="a" onClick="doContactUs();">Contacts</a>
+          </center>
+        </div>
+
+	<div data-role="content">
+
+          <div data-role="navbar" data-theme="a">
+            <ul data-theme="a">
+              <li data-theme="a">
+                <a href="#mypanel">Menu</a>
+              </li>
+              <li>
+                <a href="page2.html" onClick="doProductPage();">Products</a>
+              </li>
+              <li>
+                <a href="pic.html" onClick="doCameraPage();">Camera</a>
+              </li>
+              <li>
+                <a href="page3.html" onClick="doContactUs();">Contact Us</a>
+              </li>
+            </ul>
+          </div><br>
+          <h1 style="font-size:20px;">Products</h1>
+          <br>
+          <br><br><br><br>
+          <div id='searchresults'></div>
+        </div><!-- /content -->
+
+        <div data-role="footer" data-position="fixed" data-theme="b">
+          <h3>Contact Us</h3>
+        </div>
+
+</div><!-- /page -->

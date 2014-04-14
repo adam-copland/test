@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Drive Computing</title>
+    <link rel="stylesheet"  href="jquery/jquery.mobile-1.3.2.min.css"/>
+    <script src="jquery/jquery.js"></script>
+    <script src="jquery/jquery.mobile-1.3.2.min.js"></script>
+    <script src="js/login.js"></script>
+    <script src="js/takePicture.js"></script>
+    <script src="js/productsearch.js"></script>
+    <script src="js/accelerometer.js"></script>
+    <script src="js/contacts.js"></script>
+    <link rel="stylesheet" type ="text/css" href="css/indexstyle.css"/>
+    <link rel="stylesheet" type ="text/css" href="css/page1style.css"/>
+    <link rel="stylesheet" type ="text/css" href="css/page2style.css"/>
+    <link rel="stylesheet" type ="text/css" href="css/page3style.css"/>
+    <link rel="stylesheet" type ="text/css" href="css/picstyle.css"/>
+    <script>
+
+    </script>
+</head>
+<body>
+  <div data-role="page" id="contactPage" data-add-back-btn="true" data-theme="b" >
+        <div data-role="header" data-position="fixed" data-theme="b">
+          <h1>Drive Computing</h1>
+        </div>
+        <div data-role="panel" id="mypanel" data-position="left" data-display="reveal" data-position-fixed="true" data-swipe-close="true" data-theme="a">
+          <center><h3>Menu</h3></center>
+          <center><a href="" data-role="button" id="home-btn" data-inline="true" onClick="doHomePage();">Home</a></center>
+          <center>
+           <a href="page2.html" type="button" data-inline="true" data-theme="a" onClick="doProductPage();">Products</a>
+           <br>
+           <a href="pic.html" type="button" data-inline="true" data-theme="a" onClick="doCameraPage();">Camera</a>
+          </center>
+        </div>
+	<div data-role="content">
+          <div data-role="navbar" data-theme="a">
+            <ul data-theme="a">
+              <li data-theme="a">
+                <a href="#mypanel">Menu</a>
+              </li>
+              <li>
+                <a href="page2.html" onClick="doProductPage();">Products</a>
+              </li>
+              <li>
+                <a href="pic.html" onClick="doCameraPage();">Camera</a>
+              </li>
+              <li>
+                <a href="page3.html" onClick="doContactUs();">Contacts</a>
+              </li>
+            </ul>
+          </div>
+          <br>
+          <h1 style="font-size:20px;">Contacts</h1>
+
+          <ul id="contactList">
+
+          </ul>
+        </div><!-- /content -->
+        <div data-role="footer" data-position="fixed" data-theme="b">
+          <h3>Contact Us</h3>
+        </div>
+</div><!-- /page -->
+<script src="phonegap.js"></script>
+</body>
+</html>
+

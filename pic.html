@@ -1,0 +1,48 @@
+<div data-role="page" data-add-back-btn="true" data-theme="b">
+
+  <div data-role="header" data-position="fixed" id="camera" data-theme="b">
+    <h1>BLISS Camera</h1>
+  </div> <!-- /Header -->
+
+  <div data-role="panel" id="mypanel" data-position="left" data-display="reveal" data-position-fixed="true" data-swipe-close="true" data-theme="a">
+    <center><h3>Menu</h3></center>
+    <center><a href="" data-role="button" id="home-btn" data-inline="true" onClick="doHomePage();">Home</a></center>
+    <center>
+           <a href="page2.html" type="button" data-inline="true" data-theme="a" onClick="doProductPage();">Products</a>
+           <br>
+           <a href="page3.html" type="button" data-inline="true" data-theme="a" onClick="doContactUs();">Contacts</a>
+          </center>
+        </div>
+
+  <div data-role="content" id="camera">
+
+    <div data-role="navbar" data-theme="a">
+            <ul data-theme="a">
+              <li data-theme="a">
+                <a href="#mypanel">Menu</a>
+              </li>
+              <li>
+                <a href="page2.html" onClick="doProductPage();">Products</a>
+              </li>
+              <li>
+                <a href="pic.html" onClick="doCameraPage();">Camera</a>
+              </li>
+              <li>
+                <a href="page3.html" onClick="doContactUs();">Contacts</a>
+              </li>
+            </ul>
+          </div><br>
+    <center><button class="camera-control" onclick="capturePhoto();" data-inline="true" style="font-size:20px;">Take a Photo</button></center>
+
+    
+
+    <div style="text-align:center; margin:20px;">
+      <img id="cameraPic" src="" style='width:225px; height:225px;'/>
+    </div> <!-- /Camera -->
+
+  </div>
+  <div data-role="footer" data-position="fixed" data-theme="b">
+          <h3>Contact Us</h3>
+        </div>
+
+</div>
